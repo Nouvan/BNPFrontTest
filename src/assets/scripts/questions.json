@@ -1,0 +1,40 @@
+{
+    "capital-maker": [
+        {
+            "questionLabel": "Question 2",
+            "inputType": "select",
+            "stepLabel": "02. Question2",
+            "stepText": "Lorem Ipsum Dolor Ister Exxeria Domma Supera",
+            "options": [
+                {
+                    "display": "Option1",
+                    "value": "option1"
+                },
+                {
+                    "display": "Option2",
+                    "value": "option2"
+                },
+                {
+                    "display": "Option3",
+                    "value": "option3"
+                }
+            ]
+        },
+        {
+            "questionLabel": "Question 3",
+            "inputType": "radio",
+            "stepLabel": "03. Question3",
+            "stepText": "Lorem Ipsum Dolor Ister Exxeria Domma Supera",
+            "options": [
+                {
+                    "display": "Oui",
+                    "value": "oui"
+                },
+                {
+                    "display": "Non",
+                    "value": "non"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>BNP Front Test</title>
+        <base href="/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="{{basePath}}/assets/styles/style.css" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    </head>
+    <body>
+        <header class="container">
+            <div class="breadcrumb">
+                Notre offre > Epargne et bourse > Epargner pour mes projets
+            </div>
+            <h1>Epargner pour mes projets</h1>
+        </header>
+        <section class="wizard container">
+            <div class="row">
+                <div class="col wizard-form">
+                    <div class="wizard-form--bloc">
+                        <div class="wizard-form--question">
+                            Question TEXT
+                        </div>
+                        <div class="wizard-form--input">
+                            <div class="goal-input">
+                                <span id="selectedMainQuestion">
+                                    <i class="fas fa-question"></i> Choisir une
+                                    option
+                                </span>
+                                <div class="dropdown">
+                                    <div
+                                        class="option"
+                                        data-question="capital-maker"
+                                    >
+                                        <i class="fas fa-coins"></i> ICON Text
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="wizard-subquestions">
+                        <div class="wizard-form--bloc">
+                            <div class="wizard-form--question">
+                                Question TEXT
+                            </div>
+                            <div class="wizard-form--input">
+                                <div
+                                    class="goal-input"
+                                    data-question="capital-maker"
+                                >
+                                    <span>Goal</span>
+                                    <div class="dropdown">
+                                        <div class="option">
+                                            ICON Text
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col wizard-steps">
+                    <div id="wizard-step" class="wizard-steps--content">
+                        <div class="wizard-steps--pie">
+                            <div
+                                id="percentage-pie"
+                                class="pie-wrapper progress-0"
+                            >
+                                <span class="label">
+                                    <span id="percentage">0</span> %
+                                </span>
+                                <div class="pie">
+                                    <div class="left-side half-circle"></div>
+                                    <div class="right-side half-circle"></div>
+                                </div>
+                                <div class="shadow"></div>
+                            </div>
+                        </div>
+                        <div class="wizard-steps--wording">
+                            <h2 id="wording-title">06. Patrimoine financier</h2>
+                            <p id="wording-text">Lorem ipsum dolor sit amet</p>
+                            <div class="progress">
+                                <div
+                                    class="progress-inner"
+                                    style="width: 50%;"
+                                ></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="{{basePath}}/assets/scripts/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: "Open Sans", sans-serif;
+    color: $body-color;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Raleway", sans-serif;
+    font-size: 3em;
+    margin: 0 0 15px 0;
+    line-height: 1.1;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h3 {
+    color: $body-color;
+    font-size: 1.5em;
+    margin: 5px 0px;
+}
+
+.btn {
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-size: 100% 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+
+    &-green {
+        background-size: 100% 100%;
+        padding: 0.75rem 1rem;
+    }
+}

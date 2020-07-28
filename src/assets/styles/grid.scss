@@ -1,0 +1,33 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  &-sm {
+    max-width: 1100px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+
+  &--space-between {
+    justify-content: space-between;
+  }
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
